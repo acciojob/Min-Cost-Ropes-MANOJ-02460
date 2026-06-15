@@ -15,14 +15,14 @@ function mincost(arr)
 
 		let newRope = first+second;
 
-		mincost+= newRope;
+		minCost+= newRope;
 
 		arr.push(newRope)
 
 		
 	}
 
-	return mincost
+	return minCost
   
 }
 
