@@ -7,7 +7,7 @@ function mincost(arr)
 
 	while(arr.length>1){
 
-		arr.sort();
+		arr.sort((a,b)=>a-b);
 
 		let first = arr.shift();
 
