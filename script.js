@@ -3,7 +3,7 @@ function mincost(arr)
 //write your code here
 // return the min cost
 
-	let minCost = 0;
+	let mincost = 0;
 
 	while(arr.length>1){
 
@@ -15,14 +15,14 @@ function mincost(arr)
 
 		let newRope = first+second;
 
-		minCost+= newRope;
+		mincost+= newRope;
 
 		arr.push(newRope)
 
 		
 	}
 
-	return minCost
+	return mincost
   
 }
 
